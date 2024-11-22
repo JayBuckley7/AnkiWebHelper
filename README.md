@@ -110,14 +110,6 @@ Processes the DOM on AnkiWeb:
 
 ---
 
-## Future Improvements
-
-- Support for additional study platforms.
-- Configurable keyboard shortcuts.
-- Enhanced processing for more complex kanji/word structures.
-
----
-
 ## License
 
 This extension is free to use and modify. Attribution is appreciated if redistributed.
