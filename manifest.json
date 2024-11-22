@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "AnkiWebLookup",
+    "version": "1.0",
+    "description": "Adds clickable links to Kanji on AnkiWeb linking to jpdb.io and provides a copy button.",
+    "permissions": ["activeTab", "tabs"],
+    "host_permissions": ["*://ankiuser.net/study/*", "https://jpdb.io/*"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "content_scripts": [
+      {
+        "matches": ["*://ankiuser.net/study/*"],
+        "js": ["contentScript.js"]
+      }
+    ]
+  }
+  
